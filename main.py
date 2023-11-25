@@ -102,8 +102,10 @@ if __name__ == "__main__":
 
         if win:
             print("Поздравляю вы угадали число!")
+            logging.info(f"Player guessed.")
         else:
             print(f"Не угадали! Число было {computer}")
+            logging.info(f"Player not guessed.")
         logging.info(f"Game finished.")
 
         logging.info(f"Asked game.")
