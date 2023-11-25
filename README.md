@@ -13,9 +13,9 @@ or your default ide run alg.
 
 This is python guess game!
 
-# Example
+# Test
 
-Большой тест со всеми данными и соответствующими логами
+Большой тест со всеми данными и соответствующими логами (добавил еще пару сообщений вывода в логи, но на картинке почти все уже есть)
 
 ![Example image 1](https://github.com/mruax/PP_labwork10_Guess_game/blob/master/src/test1.png?raw=true)
 ![Example image 2](https://github.com/mruax/PP_labwork10_Guess_game/blob/master/src/test2.png?raw=true)
