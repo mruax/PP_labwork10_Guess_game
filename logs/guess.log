@@ -1,0 +1,53 @@
+2023-11-25 16:39:33,734 INFO Program started
+2023-11-25 16:39:33,734 INFO Game = True. Entered game loop.
+2023-11-25 16:39:33,734 INFO Game started.
+2023-11-25 16:40:04,024 ERROR Input data: invalid literal for int() with base 10: '���� ����� ����� �� ����'
+2023-11-25 16:40:08,322 ERROR Input data: invalid literal for int() with base 10: '�����, ��� � ���� � ����?'
+2023-11-25 16:40:10,952 ERROR Input data: invalid literal for int() with base 10: '������� ����� ������� ������?'
+2023-11-25 16:40:17,471 ERROR Input data: invalid literal for int() with base 10: '����� ����� ���������'
+2023-11-25 16:40:36,729 ERROR Incorrect input data -1
+2023-11-25 16:40:38,838 ERROR Incorrect input data 0
+2023-11-25 16:40:40,472 ERROR Input data: invalid literal for int() with base 10: '1.1'
+2023-11-25 16:40:40,925 ERROR Incorrect input data 1
+2023-11-25 16:41:08,209 INFO Input n = 7
+2023-11-25 16:42:06,027 ERROR Input data: invalid literal for int() with base 10: '������ ������ ������� �����:'
+2023-11-25 16:42:07,315 ERROR Input data: invalid literal for int() with base 10: '������� ������ �������� - 250 �'
+2023-11-25 16:42:10,663 ERROR Input data: invalid literal for int() with base 10: '������� ��-�������� - 250 �'
+2023-11-25 16:42:15,237 ERROR Input data: invalid literal for int() with base 10: '���������� ���������������� - 350 �'
+2023-11-25 16:42:20,403 ERROR Input data: invalid literal for int() with base 10: '��� - 150 � � ��� �����'
+2023-11-25 16:42:24,788 ERROR Incorrect input data 0
+2023-11-25 16:42:25,406 ERROR Incorrect input data -1
+2023-11-25 16:42:27,231 ERROR Input data: invalid literal for int() with base 10: '1.1'
+2023-11-25 16:42:35,423 INFO Input k = 3
+2023-11-25 16:42:35,423 INFO Randomized computer number - 3
+2023-11-25 16:42:39,621 INFO Input guess = 1
+2023-11-25 16:42:39,621 INFO Player guess 1 < 3
+2023-11-25 16:42:41,072 INFO Input guess = 2
+2023-11-25 16:42:41,072 INFO Player guess 2 < 3
+2023-11-25 16:42:42,493 INFO Input guess = 3
+2023-11-25 16:42:42,493 INFO Player guess 3 == 3
+2023-11-25 16:42:42,493 INFO Game finished.
+2023-11-25 16:42:48,658 ERROR Incorrect input data ����� ��� �����
+2023-11-25 16:42:49,638 INFO Input game = True
+2023-11-25 16:42:49,638 INFO Game started.
+2023-11-25 16:42:56,714 INFO Input n = 7
+2023-11-25 16:42:57,303 INFO Input k = 3
+2023-11-25 16:42:57,303 INFO Randomized computer number - 7
+2023-11-25 16:42:59,353 INFO Input guess = 1
+2023-11-25 16:42:59,353 INFO Player guess 1 < 7
+2023-11-25 16:43:00,614 INFO Input guess = 2
+2023-11-25 16:43:00,614 INFO Player guess 2 < 7
+2023-11-25 16:43:01,413 INFO Input guess = 3
+2023-11-25 16:43:01,413 INFO Player guess 3 < 7
+2023-11-25 16:43:01,413 INFO Game finished.
+2023-11-25 16:43:06,020 INFO Input game = True
+2023-11-25 16:43:06,020 INFO Game started.
+2023-11-25 16:43:08,605 INFO Input n = 10
+2023-11-25 16:43:09,359 INFO Input k = 5
+2023-11-25 16:43:09,359 INFO Randomized computer number - 5
+2023-11-25 16:43:11,419 INFO Input guess = 5
+2023-11-25 16:43:11,420 INFO Player guess 5 == 5
+2023-11-25 16:43:11,420 INFO Game finished.
+2023-11-25 16:43:17,128 ERROR Incorrect input data ��� ������� �������
+2023-11-25 16:43:18,745 INFO Input game = False
+2023-11-25 16:43:18,745 INFO Program ended
