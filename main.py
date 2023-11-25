@@ -23,18 +23,21 @@ def valid_input(in_message, retry_message, cond):
                         result = int(result)
                         flag = False
                     else:
+                        logging.error(f"Incorrect input data {result}")
                         print("Данные введены неверно!")
                 case 2:  # ввод k
                     if int(result) >= 1:
                         result = int(result)
                         flag = False
                     else:
+                        logging.error(f"Incorrect input data {result}")
                         print("Данные введены неверно!")
                 case 3:  # ввод попытки
                     if 1 <= int(result) <= n:
                         result = int(result)
                         flag = False
                     else:
+                        logging.error(f"Incorrect input data {result}")
                         print("Данные введены неверно!")
                 case 4:
                     if result.lower() == "да":
@@ -44,6 +47,7 @@ def valid_input(in_message, retry_message, cond):
                         result = False
                         flag = False
                     else:
+                        logging.error(f"Incorrect input data {result}")
                         print("Данные введены неверно!")
         except Exception as e:
             print("Данные введены неверно!")
@@ -63,9 +67,11 @@ if __name__ == "__main__":
     while game:
         logging.info(f"Game started.")
 
+        logging.info(f"Asked n.")
         n = valid_input("Введите целое число большее 1 (правую границу диапазона угадывания):", "n = ", 1)
         logging.info(f"Input n = {n}")
 
+        logging.info(f"Asked k.")
         k = valid_input("Введите количество попыток на угадывание (натуральное число):", "k = ", 2)
         logging.info(f"Input k = {k}")
 
@@ -77,18 +83,19 @@ if __name__ == "__main__":
         win = False
         print(f"Приступим к игре! Угадайте число от 1 до {n}:")
         while count - 1 != k and not win:  # Цикл угадываний
+            logging.info(f"Asked guess.")
             guess = valid_input(f"Попытка {count}. Введите число от 1 до {n}", "Ваше число - ", 3)
             logging.info(f"Input guess = {guess}")
 
             if guess == computer:
                 win = True
-                logging.info(f"Player guessed!")
+                logging.info(f"Player guess {guess} == {computer}")
             elif guess > computer:
                 print("Загаданное число меньше!")
-                logging.info(f"Player guess {guess} < {computer}")
+                logging.info(f"Player guess {guess} > {computer}")
             else:
                 print("Загаданное число больше!")
-                logging.info(f"Player guess {guess} > {computer}")
+                logging.info(f"Player guess {guess} < {computer}")
 
             # Следующая попытка
             count += 1
@@ -99,6 +106,7 @@ if __name__ == "__main__":
             print(f"Не угадали! Число было {computer}")
         logging.info(f"Game finished.")
 
+        logging.info(f"Asked game.")
         game = valid_input("Хотите попробовать еще раз (да/нет)?", "Ваше решение - ", 4)
         logging.info(f"Input game = {game}")
         print()
